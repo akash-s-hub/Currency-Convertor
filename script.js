@@ -60,3 +60,4 @@ btn.addEventListener("click", async (evt) => {
   result.innerText = `${amtValue} ${fromValue.value} is equal to ${outputRate} ${toValue.value}`;
 })
 
+// done

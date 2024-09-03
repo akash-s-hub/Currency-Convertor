@@ -12,7 +12,7 @@ body {
   justify-content: center;
 }
 
-/* app css */
+/* app css  */
 .appContainer {
   display: flex;
   align-items: center;
@@ -126,3 +126,5 @@ button {
   font-size: 1rem;
   cursor: pointer;
 }
+
+/* done */
