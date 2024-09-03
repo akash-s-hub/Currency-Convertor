@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* app css */
+.appContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+  padding: 0.5rem;
+  min-height: 500px;
+  min-width: 350px;
+  border-radius: 1rem;
+  border: 1px solid black;
+}
+
+/* common css */
+h1,
+.input,
+.from-to-parent,
+.result,
+button {
+  width: 100%;
+}
+
+/* h1 css */
+h1 {
+  font-size: 40px;
+  text-align: center;
+}
+
+/* .input css */
+.input {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.amount {
+  font-size: 24px;
+}
+
+input {
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 8px 0;
+  padding-left: 8px;
+  height: 40px;
+}
+
+/* .from-to css */
+.from-to {
+  font-size: 1.2rem;
+  display: flex;
+  margin-bottom: 5px;
+}
+
+#from,
+#to {
+  width: 50%;
+}
+
+#to {
+  text-align: right;
+}
+
+/* .dropdown css */
+.dropdown {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fromOptions,
+.toOptions {
+  width: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.exchange i {
+  cursor: pointer;
+}
+
+select {
+  padding: 8px;
+  border: none;
+  outline: none;
+}
+
+.fromOptions img,
+.toOptions img {
+  height: 40px;
+}
+
+/* .result css */
+.result {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+
+/* button css */
+button {
+  margin: 8px 0;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+}
